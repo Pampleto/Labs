@@ -11,7 +11,7 @@ public class VentanaRegistro extends JFrame {
     private JButton btnGuardar;
     private JButton btnLimpiar;
 
-   public VentanaRegistro() {
+   public VentanaRegistro(String carnet, String nombre, String carrera) {
         setTitle("Sistema de Gestión de Estudiantes — UNA");
         setSize(450, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
