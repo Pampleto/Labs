@@ -54,12 +54,10 @@ public class VentanaRegistro extends JFrame {
 
         btnGuardar.addActionListener(e -> {
 
-            String carnet = txtCarnet.getText();
-            String nombre = txtNombre.getText();
-            String carrera = txtCarrera.getText();
         });
 
-        if (carnet.isEmpty() || nombre.isEmpty() || carrera.isEmpty()) {
+
+       if (carnet.isEmpty() || nombre.isEmpty() || carrera.isEmpty()) {
 
             // Muestra una ventana emergente de advertencia (WARNING)
             JOptionPane.showMessageDialog(this,
